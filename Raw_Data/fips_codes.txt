@@ -1348,7 +1348,7 @@ CA|06|38772|Knightsen CDP|Census Designated Place|S|Contra Costa County
 
 CA|06|38800|Knights Landing CDP|Census Designated Place|S|Yolo County
 
-CA|06|39003|La Cañada Flintridge city|Incorporated Place|A|Los Angeles County
+CA|06|39003|La Canada Flintridge city|Incorporated Place|A|Los Angeles County
 
 CA|06|39045|La Crescenta-Montrose CDP|Census Designated Place|S|Los Angeles County
 
@@ -2114,7 +2114,7 @@ CA|06|57260|Pine Valley CDP|Census Designated Place|S|San Diego County
 
 CA|06|57288|Pinole city|Incorporated Place|A|Contra Costa County
 
-CA|06|57302|Piñon Hills CDP|Census Designated Place|S|San Bernardino County
+CA|06|57302|Pinon Hills CDP|Census Designated Place|S|San Bernardino County
 
 CA|06|57330|Pioneer CDP|Census Designated Place|S|Amador County
 

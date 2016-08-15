@@ -15,7 +15,8 @@ cahouseurl = 'https://github.com/crsalviati/CA_Housing/raw/master/Code/ca_house_
 cahouse = pd.read_csv(cahouseurl, converters={'geotypevalue':str,'county_fips':str})
 
 #Drop some vars with lots of missing data / avoid collinearity
-cahouse = cahouse.drop(['car', 'carpool', 'cartotal'], axis=1) #Drop these to avoid double counting and need to drop one to avoid collinearity
+cahouse['nocar'] = cahouse['bicycle'] + cahouse['publictr'] + cahouse['walk']
+cahouse = cahouse.drop(['car', 'carpool', 'cartotal', 'bicycle', 'publictr', 'walk', 'athome'], axis=1) #Drop these to avoid double counting and need to drop one to avoid collinearity
 cahouse = cahouse.drop(['job_house_low', 'median_income'], axis=1) 
 cahouse = cahouse.drop(['poverty_conc', 'traf_fatal', 'livewage_m', 'inf_care'], axis=1)
 cahouse['hh_fam'] = cahouse['hh_m']+ cahouse['hh_f']+cahouse['hh_married']

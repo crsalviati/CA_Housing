@@ -1,0 +1,59 @@
+county
+Los Angeles County, CA
+Orange County, CA
+San Diego County, CA
+Riverside County, CA
+San Bernardino County, CA
+Santa Clara County, CA
+Alameda County, CA
+Sacramento County, CA
+Contra Costa County, CA
+Fresno County, CA
+Ventura County, CA
+San Francisco County, CA
+Kern County, CA
+San Mateo County, CA
+San Joaquin County, CA
+Stanislaus County, CA
+Sonoma County, CA
+Tulare County, CA
+Solano County, CA
+Monterey County, CA
+Santa Barbara County, CA
+Placer County, CA
+San Luis Obispo County, CA
+Santa Cruz County, CA
+Merced County, CA
+Marin County, CA
+Butte County, CA
+Yolo County, CA
+El Dorado County, CA
+Shasta County, CA
+Imperial County, CA
+Kings County, CA
+Madera County, CA
+Napa County, CA
+Humboldt County, CA
+Nevada County, CA
+Sutter County, CA
+Mendocino County, CA
+Yuba County, CA
+Lake County, CA
+Tehama County, CA
+Tuolumne County, CA
+San Benito County, CA
+Calaveras County, CA
+Siskiyou County, CA
+Amador County, CA
+Lassen County, CA
+Del Norte County, CA
+Glenn County, CA
+Plumas County, CA
+Colusa County, CA
+Mariposa County, CA
+Inyo County, CA
+Trinity County, CA
+Mono County, CA
+Modoc County, CA
+Sierra County, CA
+Alpine County, CA

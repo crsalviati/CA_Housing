@@ -27,10 +27,10 @@ cahouse['missing_vars'] = cahouse.isnull().sum(axis=1)
 ca_fillmiss = cahouse[cahouse.missing_vars <= 8]
 #Create DF of the Zillow vas (LHS) and region geographical identifiers
 ca_zill_labels = ca_fillmiss[['placename', 'county', 'regionid',  'placefp', 'geoname', 'zri_sqft', 'hval_sqft']]
-#Create DF of all HCI (RHS) vars with missing data that we want to fill. Exclude some with too much missing data
+#Create DF of all HCI (RHS) vars with missing data that we want to fill. Exclude some with too much missing data or that don't seem important
 ca_fillmiss = ca_fillmiss.drop(['hfood_acc', 'day_care', 'violent_crime', 'child_abuse', 'p_trans_acc', 'placename', 
                                 'county', 'regionid', 'zri_sqft', 'hval_sqft', 'missing_vars', 'placefp', 'geoname',
-                               'Unnamed: 0'], axis=1)
+                               'Unnamed: 0', 'food_afford', 'poverty_child', 'alc_off', 'alc_tot'], axis=1)
 
 #create df of only vars with complete data. use this to fit regressions to fill in missing
 ca_complete = ca_fillmiss.dropna(axis=1, how='any')
